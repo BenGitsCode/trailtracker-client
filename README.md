@@ -1,50 +1,51 @@
-# trailtracker-client
+# trail-tracker-client
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+TODO: Put more badges here.
 
-## Prerequisites
+>  Trail tracking app for manipulating trail data with granular details.
 
-You will need the following things properly installed on your computer.
+TODO: Fill out this long description.
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+## Table of Contents
 
-## Installation
+- [Security](#security)
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [API](#api)
+- [Maintainers](#maintainers)
+- [Contribute](#contribute)
+- [License](#license)
 
-* `git clone <repository-url>` this repository
-* `cd trailtracker-client`
-* `npm install`
+## Security
 
-## Running / Development
+## Background
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+## Install
 
-### Code Generators
+```
+```
 
-Make use of the many generators for code, try `ember help generate` for more details
+## Usage
 
-### Running Tests
+```
+```
 
-* `ember test`
-* `ember test --server`
+## API
 
-### Building
+[API README](https://github.com/OllieBuilds/django-trailtracker)
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+## Maintainers
 
-### Deploying
+## Contribute
 
-Specify what it takes to deploy your app.
+See [the contribute file](contribute.md)!
 
-## Further Reading / Useful Links
+PRs accepted.
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+
+## License
+
+MIT © Ben Adamski, Oliver Scarborough, Phil Schoof Susan Daiute.
