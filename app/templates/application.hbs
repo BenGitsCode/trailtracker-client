@@ -1,5 +1,16 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="container">
+    <div class="menu">
+        {{#link-to 'index'}}
+        <h1>
+            <em>🎉Trailtracker😎</em>
+        </h1>
+        {{/link-to}}
+        <div class="links">
+            {{#link-to 'about'}} About {{/link-to}} {{#link-to 'trails'}} Trails {{/link-to}}
+        </div>
+    </div>
+    <div class="body">
+        {{!--this outlet helper tells ember where content from our current route will be shown such as about/ and trails/--}}
+        {{outlet}}
+    </div>
+</div>
