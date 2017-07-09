@@ -6,3 +6,24 @@
     About Us
   {{/link-to}}
 </div>
+
+{{!--render list of trails--}}
+{{!--we can use this dummy data to test how we render
+our trail data to the ember client--}}
+{{#each model as |trail|}}
+  <article class="listing">
+    <h3>{{trail.title}}</h3>
+    <div class="detail owner">
+      <span>Author:</span> {{trail.author}}
+    </div>
+    <div class="detail type">
+      <span>Type:</span> {{trail.trailType}}
+    </div>
+    <div class="detail location">
+      <span>Location:</span> {{trail.city}}
+    </div>
+    <div class="detail description">
+      <span>Trail Description</span> {{rental.description}}
+    </div>
+  </article>
+{{/each}}
