@@ -7,29 +7,26 @@ export default Ember.Route.extend({
       title: 'Rainbow Highway',
       author: 'Jan Michael Vincent',
       city: 'San Francisco',
-      trailType: 'Estate',
-      bedrooms: 15,
+      trailType: 'Rainbow',
       image: 'https://t4.rbxcdn.com/2d9c258ad023fce6b660fd6ba4f98ebc',
-      description: 'This grand old mansion sits on over 100 acres of rolling hills and dense redwood forests.'
+      description: 'Rainbow Road is the final course of the Special Cup featured in all Mario Kart games and is the climactic course of each game it appears.'
     }, {
       id: 'trail-2',
       title: 'Blizzard Bluff',
       author: 'Mr. Meeseeks',
       city: 'Seattle',
-      trailType: 'Condo',
-      bedrooms: 1,
+      trailType: 'Icy',
       image: 'https://i.ytimg.com/vi/jmq5-_YgMBo/hqdefault.jpg',
-      description: 'A commuters dream. This rental is within walking distance of 2 bus stops and the Metro.'
+      description: 'Blizzard Bluff, in the Boulder Circuit on the Snow Mountain is the ninth race course in Crash Team Racing.'
 
     }, {
       id: 'trail-3',
-      title: 'Downtown Charm',
+      title: 'Crash Cove',
       author: 'Birdperson',
       city: 'Portland',
-      trailType: 'Apartment',
-      bedrooms: 3,
+      trailType: 'Urban',
       image: 'https://i.ytimg.com/vi/im6B9MMG5AA/maxresdefault.jpg',
-      description: 'Convenience is at your doorstep with this charming downtown rental. Great restaurants and active night life are within a few feet.'
+      description: 'Crash cove is a beach and it\'s where I learned how to powerslide'
 
     }];
   }
