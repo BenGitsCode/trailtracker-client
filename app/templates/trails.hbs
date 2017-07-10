@@ -1,0 +1,29 @@
+<div class="jumbo">
+  <div class="right tomster"></div>
+  <h2>Welcome!</h2>
+  <p>Do you see trails here? You should ¯\_(ツ)_/¯ .</p>
+  {{#link-to 'about' class="button"}}
+    About Trailtracker
+  {{/link-to}}
+</div>
+
+{{!--render list of trails--}}
+{{!--we can use this dummy data to test how we render
+our trail data to the ember client--}}
+{{#each model as |trail|}}
+  <article class="listing">
+    <h3>{{trail.title}}</h3>
+    <div class="detail owner">
+      <span>Author:</span> {{trail.author}}
+    </div>
+    <div class="detail type">
+      <span>Type:</span> {{trail.trailType}}
+    </div>
+    <div class="detail location">
+      <span>Location:</span> {{trail.city}}
+    </div>
+    <div class="detail description">
+      <span>Trail Description:</span> {{trail.description}}
+    </div>
+  </article>
+{{/each}}
